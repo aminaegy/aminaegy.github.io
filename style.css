@@ -1,75 +1,56 @@
 
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fdfdfd;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #ffe5e0;
-  padding: 20px;
-  text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
-  max-width: 200px;
-  height: auto;
-  margin-bottom: 10px;
+    max-height: 100px;
+    margin: 10px;
 }
 
-nav {
-  margin-top: 15px;
+header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 nav ul {
-  list-style-type: none;
-  padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
 }
 
 nav ul li {
-  display: inline-block;
-  margin: 0 10px;
+    margin: 5px 0;
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: #c62828;
-  font-weight: bold;
+    text-decoration: none;
+    color: #5a5a5a;
+    font-weight: bold;
 }
 
 nav input[type="text"] {
-  margin-top: 10px;
-  padding: 5px;
-  width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
-.hero {
-  background-color: #fff8f0;
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 2.5em;
-  color: #c62828;
-}
-
-.tagline {
-  font-size: 1.2em;
-  color: #5c5c5c;
+.intro {
+    padding: 40px;
+    text-align: center;
+    background-color: #eaeaea;
 }
 
 footer {
-  background-color: #fbe9e7;
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9em;
-  color: #555;
-}
-
-footer a {
-  color: #c62828;
-  text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd;
 }
